@@ -1,0 +1,16 @@
+<h2>Searched for: <%= @search %></h2>
+<p>Total results <%= @num_titles %></p>
+
+
+</br>
+<% for @item in @r_title %>
+  <p>Title: <%= @item["Title"] %></p>
+  <% if (!(@item["Poster"] == "N/A")) %>
+    <img src= " <%= @item["Poster"]%> "/>
+    </br>
+  <%  else %>
+    <p>(No Poster available)</p>
+    </br>
+  <%  end %>
+
+<% end %>
