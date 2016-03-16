@@ -3,6 +3,7 @@
 
 
 </br>
+<% if (!(@num_titles == "Movie not found!")) %>
 <% for @item in @r_title %>
   <p>Title: <%= @item["Title"] %></p>
   <% if (!(@item["Poster"] == "N/A")) %>
@@ -12,5 +13,5 @@
     <p>(No Poster available)</p>
     </br>
   <%  end %>
-
+  <%  end %>
 <% end %>
