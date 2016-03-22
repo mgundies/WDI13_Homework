@@ -1,0 +1,22 @@
+
+
+body {
+  background-image: url("film.jpg");
+  background-size: cover;
+
+  font-family: courier;
+  color: rgb(57,255,20);
+  /*background: papayawhip;*/
+}
+div.container {
+  background: black;
+  color: rgb(57,255,20);
+  font-family: courier;
+  margin: 0 auto;
+  padding: 3px;
+  width: 600px;
+}
+div.top {
+  background: black;
+
+}
