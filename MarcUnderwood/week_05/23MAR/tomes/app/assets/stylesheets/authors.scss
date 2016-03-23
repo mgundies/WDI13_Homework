@@ -1,0 +1,28 @@
+// Place all the styles related to the Artists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.thumb {
+  max-width: 10em;
+}
+.feature {
+  max-width: 25em;
+}
+
+ul {
+  list-style:none;
+}
+
+fieldset {
+  border: none;
+  border-radius: 2em;
+}
+
+fieldset:hover {
+  background-color: #ccc;
+
+}
+label {
+  display: inline-block;
+  min-width: 85px;
+  text-align: right;
+}
