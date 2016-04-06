@@ -1,0 +1,10 @@
+<nav.class="header">
+  <h1 class='title'>My Photo Search</h1>
+  <div class='searchControls'>
+  <%= form_tag root_path, :id => 'search' do %>
+    <%= search_field_tag :query, 'southpark tv' %>
+    <%= submit_tag 'Search '  %>
+  <% end %>
+</nav>
+</div>
+<div id="results"></div>
