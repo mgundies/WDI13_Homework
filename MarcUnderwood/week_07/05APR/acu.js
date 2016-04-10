@@ -86,6 +86,18 @@ var citymap = {
     center: {lat: 49.25, lng: -123.1},
     population: 603502,
     numArticles: []
+  },
+  4: {
+    name: "houston",
+    center: {lat: 29.7, lng: -95.36},
+    population: 603502,
+    numArticles: []
+  },
+  5: {
+    name: "miami",
+    center: {lat: 25.7, lng: -80.2},
+    population: 603502,
+    numArticles: []
   }
 };
 

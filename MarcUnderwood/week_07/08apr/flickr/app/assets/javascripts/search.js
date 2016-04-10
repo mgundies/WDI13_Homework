@@ -25,7 +25,7 @@ $(document).ready(function (){
         firstSearch === false;
       };
 
-      isOkToSearch = true;
+      isOkToSearch = true; // should be moved inside done ??
       totalPages
       for (var i= 0; i<data.photos.photo.length; i++) {
         photoNum += 1;
